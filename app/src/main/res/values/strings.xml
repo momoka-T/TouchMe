@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Touch Me</string>
+    <string name="apptitle">touch me!</string>
+    <string name="startbutton">Button</string>
+</resources>
