@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Touch Me</string>
     <string name="apptitle">touch me!</string>
-    <string name="startbutton">Button</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="startbutton">タップしてね！</string>
+    <string name="stopbutton">やめる</string>
 </resources>
