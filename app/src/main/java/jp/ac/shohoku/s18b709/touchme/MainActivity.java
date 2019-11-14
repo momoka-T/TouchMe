@@ -29,19 +29,19 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     if (count == 1) {
                         // 変更したいレイアウトを取得する
-                        LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout1);
+                        LinearLayout layout = findViewById(R.id.ConstraintLayout1);
                         // レイアウトのビューをすべて削除する
                         layout.removeAllViews();
                         // レイアウトをR.layout.sampleに変更する
                         getLayoutInflater().inflate(R.layout.view2, layout);
                         count = 2;
                     } else if (count == 2) {
-                        LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout2);
+                        LinearLayout layout =  findViewById(R.id.linearlayout2);
                         layout.removeAllViews();
                         getLayoutInflater().inflate(R.layout.view3, layout);
                         count = 3;
                     }else if (count == 3) {
-                        LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout3);
+                        LinearLayout layout =  findViewById(R.id.linearlayout3);
                         layout.removeAllViews();
                         getLayoutInflater().inflate(R.layout.view2, layout);
                         count = 2;
