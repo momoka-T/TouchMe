@@ -12,6 +12,10 @@ import android.view.View.OnClickListener;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.text.DecimalFormat;
+import java.util.Timer;
+import java.util.logging.Handler;
+
 public class MainActivity extends AppCompatActivity {
         int count = 1;
 
@@ -76,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
           });
         }
 
+        private double systemtime1;             //システム時間
+        private DecimalFormat decimalFormat1;
+        private Handler handler1;
+        private Timer timer1;
+        private int count1;
+
+
+
         private boolean audioSetup() {
           boolean fileCheck = false;
 
@@ -128,3 +140,5 @@ public class MainActivity extends AppCompatActivity {
           mediaPlayer = null;
         }
 }
+
+  // Log.v(tag:"init", "初期化しました。")
