@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
         private MediaPlayer mediaPlayer;{
           setContentView(R.layout.activity_main);
 
@@ -86,14 +87,18 @@ public class MainActivity extends AppCompatActivity {
           fileCheck = true;
 
           return fileCheck;
-        }
+        
 
+   
+   
+    
         private void audioPlay() {
           if (mediaPlayer == null) {
               //audioファイルを読出し
               if (audioSetup()) {
                   Toast.makeText(getApplication(), "Rread audio file", Toast.LENGTH_SHORT).show();
               } else {
+
                 Toast.makeText(getApplication(), "Error: read audio file", Toast.LENGTH_SHORT).show();
                 return;
               }
