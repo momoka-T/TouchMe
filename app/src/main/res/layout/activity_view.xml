@@ -15,7 +15,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="click here" />
+        android:text="@string/clickhere_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <include
         layout="@layout/view1"

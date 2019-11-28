@@ -15,7 +15,7 @@
         android:layout_height="62dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/boton"
-        android:text="please touch"
+        android:text="@string/pleasetouch_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hapticFeedbackEnabled="false"
-        android:text="Touch me"
+        android:text="@string/title"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textSize="60sp"
         app:fontFamily="monospace"
@@ -48,6 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.951"
-        app:srcCompat="@drawable/usa" />
+        app:srcCompat="@drawable/usa"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

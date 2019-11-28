@@ -5,4 +5,14 @@
     <string name="stop">stop</string>
     <string name="startbutton">タップしてね！</string>
     <string name="stopbutton">やめる</string>
+    <string name="menu">一回 君はやさしいね
+                        二回 ぽっけるが踊るよ</string>
+    <string name="message">ボタンを押した回数で音楽を流します。曲の説明は下記を参照ください。</string>
+    <string name="thirdview_button">third view</string>
+    <string name="clickhere_button">click here</string>
+    <string name="secondview_button">second view</string>
+    <string name="Listenbutton">Button</string>
+    <string name="pleasetouch_button">please touch</string>
+    <string name="title">Touch me</string>
+    <string name="todo">TODO</string>
 </resources>
