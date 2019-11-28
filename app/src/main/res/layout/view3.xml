@@ -12,22 +12,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="664dp"
-        android:text="third view"
+        android:text="@string/thirdview_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="353dp"
         android:layout_height="488dp"
-        android:text="一回　君はやさしいね 　二回　ぽっけるが踊るよ"
+        android:text="@string/menu"
         android:textColor="#0F0E0E"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.724"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -37,7 +38,7 @@
         android:layout_width="386dp"
         android:layout_height="116dp"
         android:layout_marginTop="60dp"
-        android:text="ボタンを押した回数で音楽を流します。曲の説明は下記を参照ください。"
+        android:text="@string/message"
         android:textColor="#47577E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
