@@ -1,20 +1,18 @@
 package jp.ac.shohoku.s18b709.touchme;
 
+import android.app.Activity;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.LinearLayout;
 import android.view.View.OnClickListener;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.text.DecimalFormat;
-import java.util.Timer;
-import java.util.logging.Handler;
 
 public class MainActivity extends AppCompatActivity {
         int count = 1;
@@ -51,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
         private MediaPlayer mediaPlayer;{
-          setContentView(R.layout.activity_main);
+          setContentView(R.layout.View2);
 
           //音楽開始ボタン
           Button buttonStart = findViewById(R.id.start);
@@ -79,14 +77,6 @@ public class MainActivity extends AppCompatActivity {
               }
           });
         }
-
-        private double systemtime1;             //システム時間
-        private DecimalFormat decimalFormat1;
-        private Handler handler1;
-        private Timer timer1;
-        private int count1;
-
-
 
         private boolean audioSetup() {
           boolean fileCheck = false;
@@ -139,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
 
           mediaPlayer = null;
         }
+
+
 }
 
   // Log.v(tag:"init", "初期化しました。")
