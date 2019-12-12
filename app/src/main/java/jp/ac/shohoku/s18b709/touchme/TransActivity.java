@@ -1,6 +1,7 @@
 package jp.ac.shohoku.s18b709.touchme;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -14,23 +15,14 @@ import android.view.View.OnClickListener;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
-    int count = 1;
+public class TransActivity extends AppCompatActivity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {  //viewの遷移処理
-        super.onCreate(savedInstanceState);
 
-
-    }
-
-
-    public class TransActivity{
-        protected void onCreate(Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_trans);
             // ボタンを押したときにイベントを取得できるようにする
-            Button button = (Button) findViewById(R.id.button);
+            Button button = findViewById(R.id.button1);
             //activity_transのボタン
             button.setOnClickListener(new OnClickListener() {
 
@@ -46,5 +38,4 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
-}
 
