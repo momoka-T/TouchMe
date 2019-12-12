@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     //インテントに、この画面と、遷移する別の画面を指定する
                     Intent intent = new Intent(TransActivity.this, SubActivity.class);
-                    Intent intent = new Intent(TransActivity.this, ThirdActivity.class);
                     //インテントで指定した別の画面に遷移する
                     startActivity(intent);
                 }
             });
+
 
         }
     }
