@@ -45,4 +45,3 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-  // Log.v(tag:"init", "初期化しました。")
