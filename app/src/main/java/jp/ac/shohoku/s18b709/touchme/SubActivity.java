@@ -1,6 +1,5 @@
 package jp.ac.shohoku.s18b709.touchme;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -25,7 +24,6 @@ public class SubActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button2);
         //activity_transのボタン
         button.setOnClickListener(new OnClickListener(){
-
             @Override
             public void onClick(View v){
                 //インテントにこの画面と、遷移する別の画面を指定する
