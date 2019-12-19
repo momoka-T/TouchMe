@@ -24,6 +24,7 @@ public class SubActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button2);
         //activity_transのボタン
         button.setOnClickListener(new OnClickListener(){
+
             @Override
             public void onClick(View v){
                 //インテントにこの画面と、遷移する別の画面を指定する
@@ -32,7 +33,6 @@ public class SubActivity extends AppCompatActivity {
 
             }
         });
-        setContentView(R.layout.sub);
 
           //音楽開始ボタン
           Button buttonStart = findViewById(R.id.start);

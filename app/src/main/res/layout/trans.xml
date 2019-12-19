@@ -33,7 +33,7 @@
         android:hapticFeedbackEnabled="false"
         android:text="@string/title"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="60dp"
+        android:textSize="60sp"
         app:fontFamily="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
