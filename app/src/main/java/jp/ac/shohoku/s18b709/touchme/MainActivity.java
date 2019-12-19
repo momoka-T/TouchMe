@@ -21,26 +21,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // ボタンを押したときにイベントを取得できるようにす
-//        Button button1 = findViewById(R.id.button2);
-//        button1.setOnClickListener(new OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (count == 1) {
-//                    // 変更したいレイアウトを取得する
-//                    LinearLayout layout = findViewById(R.id.ConstraintLayout1);
-//                    // レイアウトのビューをすべて削除する
-//                    layout.removeAllViews();
-//                    // レイアウトをR.layout.sampleに変更する
-//                    getLayoutInflater().inflate(R.layout.sub, layout);
-//                    count = 2;
-//                } else if (count == 2) {
-//                    LinearLayout layout = findViewById(R.id.ConstraintLayout2);
-//                    layout.removeAllViews();
-//                    getLayoutInflater().inflate(R.layout.third, layout);
-//                    count = 3;
-//                }
-//            }
-//        });
+        Button button1 = findViewById(R.id.button2);
+        button1.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (count == 1) {
+                    // 変更したいレイアウトを取得する
+                    LinearLayout layout = findViewById(R.id.ConstraintLayout1);
+                    // レイアウトのビューをすべて削除する
+                    layout.removeAllViews();
+                    // レイアウトをR.layout.sampleに変更する
+                    getLayoutInflater().inflate(R.layout.sub, layout);
+                    count = 2;
+                } else if (count == 2) {
+                    LinearLayout layout = findViewById(R.id.ConstraintLayout2);
+                    layout.removeAllViews();
+                    getLayoutInflater().inflate(R.layout.third, layout);
+                    count = 3;
+                }
+            }
+        });
     }
 
 }

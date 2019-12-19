@@ -22,7 +22,7 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third);
         // ボタンを押したときにイベントを取得できるようにする
-        Button button = findViewById(R.id.button4);
+        Button button = findViewById(R.id.button3);
         //activity_transのボタン
         button.setOnClickListener(new OnClickListener() {
 

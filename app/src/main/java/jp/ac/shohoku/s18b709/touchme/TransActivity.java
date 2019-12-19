@@ -22,7 +22,7 @@ public class TransActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.trans);
         // ボタンを押したときにイベントを取得できるようにする
-        Button button = findViewById(R.id.button2);
+        Button button = findViewById(R.id.button1);
         //activity_transのボタン
         button.setOnClickListener(new OnClickListener() {
 
